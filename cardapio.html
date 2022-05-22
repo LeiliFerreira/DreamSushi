@@ -1,0 +1,191 @@
+<!DOCTYPE HTML> 
+<html lang="pt-br"> 
+	<head> 
+		<meta name="viewport" content="widh=device-widh,initial-scale=1.0"> 
+		<meta charset="UTF-8">
+		<link rel="stylesheet" href="css/styleCardapio.css"> 
+		<link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+		<title> Cardápio </title>
+	</head>
+	<body> 
+		
+		<script src="script.js"> </script>
+		<div id ="popup"> 
+			<div class="info"> 
+				<center> 
+				<h2> Informativo! </h2>
+				<p> Este projeto é apenas para fins acadêmicos</p> </center>
+			</div>
+			<div class="botaoFechar"> 
+				<center>
+				<input type="submit" value="Ok" onclick="fechar('popup')"> </center>
+			</div>
+		
+		</div>
+
+		<header>
+			<nav>
+				<h4> Dream Sushi </h4>
+				<ul class="nav_list"> 
+					<div class="inicio">
+						<li><input type="submit" value="Início" onclick="redirecionamentoInicio()"></li>
+					</div>
+					<div class="sobre"> 
+						<li><input type="submit" value="Sobre" onclick="abrir('popup')"></li>
+					</div>
+					<div class="contato"> 
+						<li><input type="submit" value="Contato" onclick="abrir('popup')"> </li>
+					</div>
+				</ul>
+			</nav>
+		<center> 
+		<h2> Cardápio </h2>
+		</center>
+		</header>
+		<div class="fieldset01"> 
+			<fieldset>
+				<img src="img/cardapioSushiHot.jpg"> 
+				<h3> HotRoll </h3>
+				<div class ="ingredientes"> 
+					<p> Arroz japonês, alga nori, salmão, creamcheese e cebola </p>
+				</div>
+				<div class="quantidade"> 
+					<p> 10 unidades </p>
+				</div>
+				<h4> R$ 18,00 </h4>
+				<div class="codigo"> 
+					<p> Código:KhR5tNjbU2 </p> 	
+				</div>
+				<div class="disponivel"> 
+					<p> Disponível<span class="material-icons">done</span> </p>
+				</div>
+
+			</fieldset>
+		</div>
+		<div class="fieldset02"> 
+			<fieldset>
+				<img src="img/cardapioSushiTemaki.jpg"> 
+				<h3> Temaki </h3>
+				<div class="ingredientes"> 
+					<p> Arroz japônes, AJI-NO-MOTO, salmão, creme cheese e saquê culinário </p>
+				</div>
+				<div class="quantidade"> 
+					<p> 10 unidades </p>
+				</div>
+				<h4> R$ 20,00 </h4>
+				<div class="codigo"> 
+					<p> Código: 2CTIGl4Wgo </p>
+				</div>
+				<div class="disponivel"> 
+					<p> Disponível<span class="material-icons">done</span> </p>
+				</div>
+			</fieldset>
+		</div>
+
+		<div class="fieldset03"> 
+			<fieldset>
+				<img src="img/cardapioSushiUramaki.png"> 
+				<h3> Uramaki </h3>
+				<div class="ingredientes"> 
+					<p> Alga marinha, gergelim branco, arroz japonês, kani-kama e pepino japonês</p>
+				</div>
+				<div class="quantidade"> 
+					<p> 10 unidades </p>
+				</div>
+				<h4> R$ 18,54 </h4>
+				<div class="codigo"> 
+					<p> Código: t1J51Jnchr </p>
+				</div>
+				<div class="disponivel"> 
+					<p> Disponível<span class="material-icons">done</span> </p>
+				</div>
+			</fieldset>
+		</div>
+
+		<div class="fieldset04"> 
+			<fieldset>
+				<img src="img/cardapioSushiNigiri.jpg"> 
+				<h3> Nigiri </h3>
+				<div class="ingredientes"> 
+					<p> Peixe e arroz </p>
+				</div>
+				<div class="quantidade"> 
+					<p> 10 unidades </p>
+				</div>
+				<h4> R$ 30,00 </h4>
+				<div class="codigo"> 
+					<p> Código: 3hGcpnVuaB </p>
+				</div>
+				<div class="disponivel"> 
+					<p> Disponível<span class="material-icons">done</span> </p>
+				</div>
+			</fieldset>
+		</div>
+
+		<div class="fieldset05"> 
+			<fieldset>
+				<img src="img/cardapioSushiGunkan.jpg"> 
+				<h3> Gunkan </h3>
+				<div class="ingredientes"> 
+					<p> Arroz japonês, salmão, cebolinha verde e limão </p> 
+				</div>
+				<div class="quantidade"> 
+					<p> 10 unidades </p>
+				</div>
+				<h4> R$ 35,00 </h4>
+				<div class="codigo"> 
+					<p> Código: qymkoqMSiM </p>
+				</div>
+				<div class="disponivel"> 
+					<p> Disponível<span class="material-icons">done</span> </p>
+				</div>
+			</fieldset>
+		</div>
+
+		<div class="fieldset06"> 
+			<fieldset>
+				<img src="img/cardapioSushiJoe.jpg"> 
+				<h3> Joe </h3>
+				<div class="ingredientes"> 
+					<p> Salmão, sopa de maionese, wasabi em pó, cebolinha, gergelim e arroz japonês. </p>
+				</div>
+				<div class="quantidade"> 
+					<p> 10 unidades </p>
+				</div>
+				<h4> R$ 38,90 </h4>
+				<div class="codigo"> 
+					<p> Código: 94Q0DDOcJm </p>
+				</div>
+				<div class="disponivel"> 
+					<p> Disponível<span class="material-icons">done</span> </p>
+				</div>
+			</fieldset>
+		</div>
+
+		<div class="fieldset07"> 
+			<fieldset>
+				<img src="img/cardapioSushiHossomaki.jpg">
+				<h3> Hossomaki </h3>
+				<div class="ingredientes"> 
+					<p> Arroz japonês, salmão e folha nori</p>
+				</div>
+				<div class="quantidade"> 
+					<p> 10 unidades </p>
+				</div>
+				<h4> R$ 25,00 </h4>
+				<div class="codigo"> 
+					<p> Código: CMFu6ghkf2 </p>
+				</div>
+				<div class="disponivel"> 
+					<p> Disponível<span class="material-icons">done</span> </p>
+				</div>
+			</fieldset>
+		</div>
+			<div class="proximaPagina"> 
+				<input type="submit" value="Próxima página..."> 
+			</div>
+	</body>
+</html> 
+
+

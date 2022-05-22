@@ -1,0 +1,510 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
+
+* {
+	margin: 0; 
+	padding: 0; 
+}
+
+#popup{
+	background: #ff9912; 
+	width: 400px; 
+	height: 300px; 
+	margin-left: 500px; 
+	margin-top: 5px; 
+	position: absolute;
+	opacity: 90%; 
+	border-radius: 15px;
+	display: none;
+}
+
+#popup h2{
+	color: #ffffff;
+	font-family: 'Roboto Condensed', sans-serif;
+	margin-top: 90px; 
+}
+
+#popup p{
+	margin-top: 10px; 
+	color: #ffffff; 
+	font-family:'Roboto Condensed', sans-serif; 
+}
+
+.botaoFechar input {
+	font-family:'Roboto Condensed', sans-serif;
+	color: #ffffff; 
+	background: #000000; 
+	border-color: #000000;
+	margin-top: 20px; 
+	width: 200px; 
+	height: 40px;
+	border-radius: 20px;
+	cursor: pointer; 
+}
+
+.nav_list .inicio li input[type="submit"]{
+	border: none; 
+	color: #ffffff;
+	background-color: #ff9912;
+	cursor: pointer;
+}
+
+.nav_list .sobre li input[type="submit"]{
+	border: none; 
+	color: #ffffff;
+	background-color: #ff9912;
+	cursor: pointer;
+}
+
+.nav_list .contato li input[type="submit"]{
+	border: none; 
+	color: #ffffff;
+	background-color: #ff9912;
+	cursor: pointer;
+}
+
+h4 {
+	font-family: 'Roboto Condensed', sans-serif;
+}
+
+nav {
+	display: flex; 
+	justify-content: space-around;
+	align-items: center; 
+	color: #ffffff;
+	background-color: #ff9912; 
+	height: 7vh; 
+	position: fixed;
+	left: 0;
+	top: 0;
+	width: 100%; 
+}
+
+.nav_list {
+	list-style: none; 
+	display: flex; 
+}
+
+.nav_list li {
+	letter-spacing: 3px; 
+	margin-left: 85px; 
+}
+
+h2 {
+	color: #ff9912;
+	font-family:'Roboto Condensed', sans-serif;
+	margin-top: 60px;  
+}
+
+.fieldset01 fieldset {
+	width: 405px;
+	height: 250px;
+	border-color: #ff9912;
+	margin-top: 50px;
+	margin-left: 260px;
+}
+
+.fieldset01 fieldset img {
+	width: 210px;
+	height: 210px; 
+	margin-left: 10px;
+	margin-top: 18px;
+}
+
+.fieldset01 fieldset h3 {
+	font-family:'Roboto Condensed', sans-serif;
+	margin-top: -208px;
+	margin-left: 240px;
+}
+
+.fieldset01 fieldset .ingredientes p {
+	font-family:'Roboto Condensed', sans-serif;
+	font-size: 12px;
+	margin-left: 240px; 
+	margin-top: 15px;
+}
+
+.fieldset01 fieldset .quantidade p {
+	font-family:'Roboto Condensed', sans-serif;
+	font-size: 12px;
+	margin-left: 240px; 
+	margin-top: 15px;
+}
+
+.fieldset01 fieldset h4 {
+	font-family: 'Roboto Condensed', sans-serif; 
+	margin-left: 240px; 
+	margin-top: 15px; 
+	font-size: 17px;
+	color: #ff9912;	 
+}
+
+.fieldset01 fieldset .codigo p {
+	font-family: 'Roboto Condensed', sans-serif; 
+	margin-left: 240px; 
+	margin-top: 15px; 
+	font-size: 12px;
+}
+
+.fieldset01 fieldset .disponivel p{
+	font-family: 'Roboto Condensed', sans-serif; 
+	margin-left: 240px; 
+	margin-top: 15px; 
+	font-size: 12px;
+}
+
+.fieldset02 fieldset {
+	width: 405px;
+	height: 250px;
+	border-color: #ff9912;
+	margin-top: -254px;
+	margin-left: 690px;
+}
+
+.fieldset02 fieldset img {
+	width: 210px;
+	height: 210px; 
+	margin-left: 10px;
+	margin-top: 18px;
+}
+
+.fieldset02 fieldset h3 {
+	font-family:'Roboto Condensed', sans-serif;
+	margin-top: -215px;
+	margin-left: 240px;
+}
+
+.fieldset02 fieldset .ingredientes p {
+	font-family:'Roboto Condensed', sans-serif;
+	font-size: 12px;
+	margin-left: 240px; 
+	margin-top: 15px;
+}
+
+.fieldset02 fieldset .quantidade p {
+	font-family:'Roboto Condensed', sans-serif;
+	font-size: 12px;
+	margin-left: 240px; 
+	margin-top: 15px;
+}
+
+.fieldset02 fieldset h4 {
+	font-family: 'Roboto Condensed', sans-serif; 
+	margin-left: 240px; 
+	margin-top: 15px; 
+	font-size: 17px;
+	color: #ff9912;	 
+}
+
+.fieldset02 fieldset .codigo p {
+	font-family: 'Roboto Condensed', sans-serif; 
+	margin-left: 240px; 
+	margin-top: 15px; 
+	font-size: 12px;
+}
+
+.fieldset02 fieldset .disponivel p{
+	font-family: 'Roboto Condensed', sans-serif; 
+	margin-left: 240px; 
+	margin-top: 15px; 
+	font-size: 12px;
+}
+
+
+.fieldset03 fieldset {
+	width: 405px;
+	height: 250px;
+	border-color: #ff9912;
+	margin-top: 50px;
+	margin-left: 260px;
+}
+
+.fieldset03 fieldset img {
+	width: 210px;
+	height: 210px; 
+	margin-left: 10px;
+	margin-top: 18px;
+}
+
+.fieldset03 fieldset h3 {
+	font-family:'Roboto Condensed', sans-serif;
+	margin-top: -215px;
+	margin-left: 240px;
+}
+
+.fieldset03 fieldset .ingredientes p {
+	font-family:'Roboto Condensed', sans-serif;
+	font-size: 12px;
+	margin-left: 240px; 
+	margin-top: 15px;
+}
+
+.fieldset03 fieldset .quantidade p {
+	font-family:'Roboto Condensed', sans-serif;
+	font-size: 12px;
+	margin-left: 240px; 
+	margin-top: 15px;
+}
+
+.fieldset03 fieldset h4 {
+	font-family: 'Roboto Condensed', sans-serif; 
+	margin-left: 240px; 
+	margin-top: 15px; 
+	font-size: 17px;
+	color: #ff9912;	 
+}
+
+.fieldset03 fieldset .codigo p {
+	font-family: 'Roboto Condensed', sans-serif; 
+	margin-left: 240px; 
+	margin-top: 15px; 
+	font-size: 12px;
+}
+
+.fieldset03 fieldset .disponivel p{
+	font-family: 'Roboto Condensed', sans-serif; 
+	margin-left: 240px; 
+	margin-top: 15px; 
+	font-size: 12px;
+}
+
+
+.fieldset04 fieldset {
+	width: 405px;
+	height: 250px;
+	border-color: #ff9912;
+	margin-top: -254px;
+	margin-left: 690px;
+}
+
+.fieldset04 fieldset img {
+	width: 210px;
+	height: 210px; 
+	margin-left: 10px;
+	margin-top: 18px;
+}
+
+.fieldset04 fieldset h3 {
+	font-family:'Roboto Condensed', sans-serif;
+	margin-top: -206px;
+	margin-left: 240px;
+}
+
+.fieldset04 fieldset .ingredientes p {
+	font-family:'Roboto Condensed', sans-serif;
+	font-size: 12px;
+	margin-left: 240px; 
+	margin-top: 15px;
+}
+
+.fieldset04 fieldset .quantidade p {
+	font-family:'Roboto Condensed', sans-serif;
+	font-size: 12px;
+	margin-left: 240px; 
+	margin-top: 15px;
+}
+
+.fieldset04 fieldset h4 {
+	font-family: 'Roboto Condensed', sans-serif; 
+	margin-left: 240px; 
+	margin-top: 15px; 
+	font-size: 17px;
+	color: #ff9912;	 
+}
+
+.fieldset04 fieldset .codigo p {
+	font-family: 'Roboto Condensed', sans-serif; 
+	margin-left: 240px; 
+	margin-top: 15px; 
+	font-size: 12px;
+}
+
+.fieldset04 fieldset .disponivel p{
+	font-family: 'Roboto Condensed', sans-serif; 
+	margin-left: 240px; 
+	margin-top: 15px; 
+	font-size: 12px;
+}
+
+
+.fieldset05 fieldset {
+	width: 405px;
+	height: 250px;
+	border-color: #ff9912;
+	margin-top: 50px;
+	margin-left: 260px;
+}
+
+.fieldset05 fieldset img {
+	width: 210px;
+	height: 210px; 
+	margin-left: 10px;
+	margin-top: 18px;
+}
+
+.fieldset05 fieldset h3 {
+	font-family:'Roboto Condensed', sans-serif;
+	margin-top: -210px;
+	margin-left: 240px;
+}
+
+.fieldset05 fieldset .ingredientes p {
+	font-family:'Roboto Condensed', sans-serif;
+	font-size: 12px;
+	margin-left: 240px; 
+	margin-top: 15px;
+}
+
+.fieldset05 fieldset .quantidade p {
+	font-family:'Roboto Condensed', sans-serif;
+	font-size: 12px;
+	margin-left: 240px; 
+	margin-top: 15px;
+}
+
+.fieldset05 fieldset h4 {
+	font-family: 'Roboto Condensed', sans-serif; 
+	margin-left: 240px; 
+	margin-top: 15px; 
+	font-size: 17px;
+	color: #ff9912;	 
+}
+
+.fieldset05 fieldset .codigo p {
+	font-family: 'Roboto Condensed', sans-serif; 
+	margin-left: 240px; 
+	margin-top: 15px; 
+	font-size: 12px;
+}
+
+.fieldset05 fieldset .disponivel p{
+	font-family: 'Roboto Condensed', sans-serif; 
+	margin-left: 240px; 
+	margin-top: 15px; 
+	font-size: 12px;
+}
+
+
+.fieldset06 fieldset {
+	width: 405px;
+	height: 250px;
+	border-color: #ff9912;
+	margin-top: -254px;
+	margin-left: 690px;
+}
+
+.fieldset06 fieldset img {
+	width: 210px;
+	height: 210px; 
+	margin-left: 10px;
+	margin-top: 18px;
+}
+
+.fieldset06 fieldset h3 {
+	font-family:'Roboto Condensed', sans-serif;
+	margin-top: -216px;
+	margin-left: 240px;
+}
+
+.fieldset06 fieldset .ingredientes p {
+	font-family:'Roboto Condensed', sans-serif;
+	font-size: 12px;
+	margin-left: 240px; 
+	margin-top: 15px;
+}
+
+.fieldset06 fieldset .quantidade p {
+	font-family:'Roboto Condensed', sans-serif;
+	font-size: 12px;
+	margin-left: 240px; 
+	margin-top: 15px;
+}
+
+.fieldset06 fieldset h4 {
+	font-family: 'Roboto Condensed', sans-serif; 
+	margin-left: 240px; 
+	margin-top: 15px; 
+	font-size: 17px;
+	color: #ff9912;	 
+}
+
+.fieldset06 fieldset .codigo p {
+	font-family: 'Roboto Condensed', sans-serif; 
+	margin-left: 240px; 
+	margin-top: 15px; 
+	font-size: 12px;
+}
+
+.fieldset06 fieldset .disponivel p{
+	font-family: 'Roboto Condensed', sans-serif; 
+	margin-left: 240px; 
+	margin-top: 15px; 
+	font-size: 12px;
+}
+
+.fieldset07 fieldset {
+	width: 405px;
+	height: 250px;
+	border-color: #ff9912;
+	margin-top: 50px;
+	margin-left: 260px;
+}
+
+.fieldset07 fieldset img {
+	width: 210px;
+	height: 210px; 
+	margin-left: 10px;
+	margin-top: 18px;
+}
+
+.fieldset07 fieldset h3 {
+	font-family:'Roboto Condensed', sans-serif;
+	margin-top: -202px;
+	margin-left: 240px;
+}
+
+.fieldset07 fieldset .ingredientes p {
+	font-family:'Roboto Condensed', sans-serif;
+	font-size: 12px;
+	margin-left: 240px; 
+	margin-top: 15px;
+}
+
+.fieldset07 fieldset .quantidade p {
+	font-family:'Roboto Condensed', sans-serif;
+	font-size: 12px;
+	margin-left: 240px; 
+	margin-top: 15px;
+}
+
+.fieldset07 fieldset h4 {
+	font-family: 'Roboto Condensed', sans-serif; 
+	margin-left: 240px; 
+	margin-top: 15px; 
+	font-size: 17px;
+	color: #ff9912;	 
+}
+
+.fieldset07 fieldset .codigo p {
+	font-family: 'Roboto Condensed', sans-serif; 
+	margin-left: 240px; 
+	margin-top: 15px; 
+	font-size: 12px;
+}
+
+.fieldset07 fieldset .disponivel p{
+	font-family: 'Roboto Condensed', sans-serif; 
+	margin-left: 240px; 
+	margin-top: 15px; 
+	font-size: 12px;
+}
+
+.proximaPagina input[type="submit"] {
+	cursor: pointer;
+	border:none;
+	color: #ff9912; 
+	background-color: #ffffff; 
+	margin-left: 975px;  
+	font-family: 'Roboto Condensed', sans-serif;  
+	font-size: 18px;
+}
+
